@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+body ul, ol, p, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;	
+	
+}
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
+	/*background:#68EDA6;*/
+}
+
+.header{
+	background: #7388FF;
+	min-height: 150px;	
+}
+
+.content img{
+	width: 200px;
+	float: left;
+}
+.content h2{
+	text-align: center;
+	overflow: hiden;
+}
+
+.footer{
+	background: #7388FF;
+	height: 30px;
+}
+
+.welcome{
+	overflow: hidden;
+}
+
+.welcome .item{
+	width: 30%;
+	text-align: center;
+	float: left;
+
+	margin-left: 2.5%;
+}
+
+.welcome .item img{
+	width: 250px;
+	
+}
+.welcome img{
+	width: 70px;
+}
+
+strong{
+	font-size: 40px;
+}
